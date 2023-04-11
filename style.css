@@ -4,4 +4,30 @@ body {
   text-align: center;
   width: 800px;
   margin: auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.rainbow-bar {
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  height: 10px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.how-do-you-do {
+  margin-top: 0;
+  font-size: 0.9rem;
 }
